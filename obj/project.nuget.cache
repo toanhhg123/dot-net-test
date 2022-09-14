@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yhmXxpRvRKcY/51YiOeGA56j/889TSqgSzc5lfzyaeoYhKLcxyNqIXa0senAlO+5Z+SXp3cB23vbTjNpb5tIrA==",
+  "success": true,
+  "projectFilePath": "D:\\BaiTap\\LeHuuToan_2001206939_LTW\\LeHuuToan_2001206939_LTW\\LeHuuToan_2001206939_LTW.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

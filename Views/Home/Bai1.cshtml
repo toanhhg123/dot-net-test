@@ -1,0 +1,21 @@
+﻿@model IEnumerable<string>
+@{
+    ViewData["Title"] = "Bai1";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+        </tr>
+    </thead>
+    <tbody>
+       @foreach (var item in Model)
+      {
+            <tr>
+                <td>@item</td>
+            </tr>
+        }
+       
+    </tbody>
+</table>

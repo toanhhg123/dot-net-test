@@ -1,0 +1,28 @@
+﻿@model LeHuuToan_2001206939_LTW.Models.NhanVien
+@{
+    ViewData["Title"] = "Nhan Vien";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Sex</th>
+            <th scope="col">Image</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Sex</td>
+            <td><img width="100" src="@Model.Img"/></td>
+
+        </tr>
+
+    </tbody>
+</table>

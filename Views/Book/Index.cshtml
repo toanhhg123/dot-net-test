@@ -1,0 +1,35 @@
+﻿@model IEnumerable<LeHuuToan_2001206939_LTW.Models.Book>
+@{
+    ViewData["Title"] = "List Book";
+}
+
+<div>
+    <a href="/book/create" class="btn btn-primary text-white font-weight-bold mb-3">Create Book</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Ten Sach</th>
+            <th scope="col">Gia</th>
+            <th scope="col">Img</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td><img class="rounded" style="width: 180px" src="~/img/@item.Img"/></td>
+                <td>
+                    <form action="/book/delete" method="post">
+                         <input name="Id" value="@item.Guid" hidden/>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>
